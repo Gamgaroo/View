@@ -1,7 +1,7 @@
-﻿using Gamgaroo.MVVM.Runtime.Abstractions;
+﻿using Gamgaroo.View.Runtime.Abstractions;
 using TMPro;
 
-namespace Gamgaroo.MVVM.Runtime.Views.Primitives
+namespace Gamgaroo.View.Runtime.Views.Primitives
 {
     public class TextMeshProView : TextMeshProUGUI, IView<string>, IView<float>, IView<int>
     {

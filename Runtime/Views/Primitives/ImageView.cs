@@ -1,8 +1,8 @@
-﻿using Gamgaroo.MVVM.Runtime.Abstractions;
+﻿using Gamgaroo.View.Runtime.Abstractions;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Gamgaroo.MVVM.Runtime.Views.Primitives
+namespace Gamgaroo.View.Runtime.Views.Primitives
 {
     public sealed class ImageView : Image, IView<Sprite>
     {
