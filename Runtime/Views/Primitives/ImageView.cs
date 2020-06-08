@@ -7,7 +7,7 @@ namespace Gamgaroo.View.Runtime.Views.Primitives
     public sealed class ImageView : Image, IView<Sprite>
     {
         [SerializeField]
-        private readonly bool _disableOnNull = true;
+        private bool _disableOnNull = true;
 
         public void Set(Sprite viewModel)
         {
